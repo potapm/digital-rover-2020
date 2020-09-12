@@ -6,12 +6,11 @@
         <groupId>ru.digital.rover</groupId>
         <artifactId>pwl</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>pwl-graph-server</artifactId>
     <packaging>jar</packaging>
 
-    <name>Power Line Server</name>
+    <name>pwl-graph-server</name>
     <description>Power Line Graph Server</description>
 
     <properties>

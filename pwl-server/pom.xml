@@ -6,7 +6,6 @@
         <groupId>ru.digital.rover</groupId>
         <artifactId>pwl</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.digital.rover</groupId>
     <artifactId>pwl-server</artifactId>
@@ -32,30 +31,9 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-neo4j-rest</artifactId>
-            <version>3.4.6.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-neo4j</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-ogm-core</artifactId>
-            <version>3.2.15</version>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-ogm-http-driver</artifactId>
-            <version>3.2.15</version>
-        </dependency>
-
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>

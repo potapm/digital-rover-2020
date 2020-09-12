@@ -20,7 +20,7 @@
     <artifactId>pwl</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>pwl</name>
-    <description>Power Line Management Syste</description>
+    <description>Power Line Management System</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

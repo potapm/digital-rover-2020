@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EptServerApplication {
+public class PwlServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EptServerApplication.class, args);
+        SpringApplication.run(PwlServerApplication.class, args);
     }
 
 }
