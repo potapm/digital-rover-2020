@@ -1,0 +1,45 @@
+main {
+    background-image: url('../img/ns.jpg');
+    height: 90vh;
+}
+
+header {
+    background-color: #112D53;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+ul li {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    padding-right: 60px;
+}
+
+.current-menu {
+    font-weight: 700;
+}
+
+main {
+    overflow: hidden;
+}
+
+.main-heading {
+    display: flex;
+    color: white;
+    font-size: 70px;
+    padding-top: 25%;
+    line-height: 89px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
