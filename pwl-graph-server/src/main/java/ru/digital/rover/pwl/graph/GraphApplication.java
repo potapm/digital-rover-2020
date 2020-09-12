@@ -10,9 +10,9 @@ import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
  */
 @SpringBootApplication
 @EnableNeo4jRepositories("ru.digital.rover.pwl.graph.repositories")
-public class SampleMovieApplication {
+public class GraphApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SampleMovieApplication.class, args);
+        SpringApplication.run(GraphApplication.class, args);
     }
 }

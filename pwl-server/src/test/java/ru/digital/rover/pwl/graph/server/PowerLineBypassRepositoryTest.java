@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import ru.digital.rover.pwl.graph.server.domain.model.BypassEntity;
 import ru.digital.rover.pwl.graph.server.domain.repository.BypassRepository;
 
-import javax.transaction.Transactional;
+import java.time.LocalDateTime;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -22,7 +23,7 @@ public class PowerLineBypassRepositoryTest {
 
     @Test
     void dbTest() {
-        bypassRepository.save(new BypassEntity("123"));
+        bypassRepository.save(new BypassEntity("123", LocalDateTime.now(), Collections.emptyList(), false, true));
         List<BypassEntity> all = bypassRepository.findAll();
         Assert.assertEquals(1, all.size());
     }
