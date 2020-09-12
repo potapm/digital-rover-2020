@@ -1,0 +1,84 @@
+/* Header */
+
+header {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.main-heading {
+    color: white;
+    font-size: 64px;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    line-height: 75px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+
+/* Form */
+
+.btn-primary {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+form {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.example-2 .btn-tertiary {
+    color: #555;
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 2px solid #555
+}
+
+.example-2 .btn-tertiary:hover,
+.example-2 .btn-tertiary:focus {
+    color: #888;
+    border-color: #888
+}
+
+.example-2 .input-file {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1
+}
+
+.example-2 .input-file+.js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    cursor: pointer
+}
+
+.example-2 .input-file+.js-labelFile .icon:before {
+    content: "\f093"
+}
+
+.example-2 .input-file+.js-labelFile.has-file .icon:before {
+    content: "\f00c";
+    color: #5AAC7B
+}
+
+
+/* Результаты */
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
