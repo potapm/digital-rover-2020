@@ -1,4 +1,4 @@
-package ru.digital.rover.pwl.graph.server.domain.model;
+package ru.digital.rover.pwl.server.domain.model;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -17,7 +17,7 @@ import static javax.persistence.GenerationType.IDENTITY;
 @EqualsAndHashCode
 @ToString
 @MappedSuperclass
-abstract class BaseEntity<T> implements Serializable {
+abstract class BaseEntity<T extends Serializable> implements Serializable {
 
     @Id
     @GeneratedValue(strategy = IDENTITY)

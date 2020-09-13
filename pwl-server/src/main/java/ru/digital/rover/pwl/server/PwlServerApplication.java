@@ -1,4 +1,4 @@
-package ru.digital.rover.pwl.graph.server;
+package ru.digital.rover.pwl.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
